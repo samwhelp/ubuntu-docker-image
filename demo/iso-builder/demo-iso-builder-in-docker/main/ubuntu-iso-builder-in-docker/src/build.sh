@@ -82,6 +82,8 @@ mod_build_prepare_package () {
 
 	sudo apt-get install debootstrap -y
 
+	sudo apt-get install make git wget curl -y
+
 }
 
 mod_build_prepare () {
