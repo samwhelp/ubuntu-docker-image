@@ -8,9 +8,6 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
-	@echo '	$$ make box-build'
-	@echo '	$$ make box-run'
-	@echo
 	@echo '	$$ make master-build'
 	@echo
 	@echo '	$$ make ubuntu-iso-builder-template'

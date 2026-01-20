@@ -57,7 +57,7 @@ make master-build
 > or run to build iso-file in docker
 
 ``` sh
-make master-ubuntu-iso-builder-respin-xfce
+make ubuntu-iso-builder-respin-xfce
 ```
 
 > check port dir
