@@ -28,7 +28,8 @@ Example:
 	$ make box-build
 	$ make box-run
 
-	$ mate master-build
+	$ make master-build
+	$ make master-ubuntu-iso-builder-template
 	$ make master-ubuntu-iso-builder-respin-xfce
 
 ```
@@ -52,7 +53,7 @@ make box-build
 make master-build
 ```
 
-> then or run to build iso-file in docker
+> or run to build iso-file in docker
 
 ``` sh
 make master-ubuntu-iso-builder-respin-xfce
