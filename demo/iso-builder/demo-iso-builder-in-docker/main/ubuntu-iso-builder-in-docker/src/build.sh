@@ -96,7 +96,9 @@ mod_build_prepare () {
 mod_build_ubuntu_iso () {
 
 	echo
-	echo "run: create iso"
+	echo "##"
+	echo "## ## Run: create iso"
+	echo "##"
 	echo
 
 	mod_build_ubuntu_iso_download_source
@@ -108,7 +110,9 @@ mod_build_ubuntu_iso () {
 mod_build_ubuntu_iso_download_source () {
 
 	echo
-	echo "run: download-source"
+	echo "##"
+	echo "## ## Run: download-source"
+	echo "##"
 	echo
 
 	git clone -b "${REF_MASTER_REPO_BRANCH_NAME}" "${REF_MASTER_REPO_URL_GIT}" "${REF_MASTER_DIR_PATH}"
@@ -118,7 +122,9 @@ mod_build_ubuntu_iso_download_source () {
 mod_build_ubuntu_iso_create () {
 
 	echo
-	echo "run: create"
+	echo "##"
+	echo "## ## Run: create"
+	echo "##"
 	echo
 
 	cd "${REF_MASTER_DIR_PATH}"
@@ -132,7 +138,9 @@ mod_build_ubuntu_iso_create () {
 mod_build_copy_iso_file_to_port_dir () {
 
 	echo
-	echo "run: copy-to-port"
+	echo "##"
+	echo "## ## Run: copy-to-port"
+	echo "##"
 	echo
 
 	sudo mkdir -p "${REF_PORT_DIR_PATH}"
@@ -140,7 +148,9 @@ mod_build_copy_iso_file_to_port_dir () {
 	sudo cp -rfT "${REF_SRC_DIST_DIR_PATH}" "${REF_DES_DIST_DIR_PATH}"
 
 	echo
-	echo "tips: please check port dir"
+	echo "##"
+	echo "## ## Tips: please check port dir"
+	echo "##"
 	echo
 
 }
