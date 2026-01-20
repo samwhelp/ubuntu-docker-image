@@ -67,6 +67,18 @@ REF_DES_DIST_DIR_PATH="${REF_PORT_DIR_PATH}/dist"
 
 
 ##
+## ## Env
+##
+
+echo
+echo "export DEBIAN_FRONTEND=noninteractive"
+export DEBIAN_FRONTEND=noninteractive
+echo
+
+
+
+
+##
 ## ## Model / Module
 ##
 
