@@ -12,7 +12,8 @@ help:
 	@echo '	$$ make box-run'
 	@echo
 	@echo '	$$ make master-build'
-	@echo '	$$ make master-ubuntu-iso-builder-template'
-	@echo '	$$ make master-ubuntu-iso-builder-respin-xfce'
+	@echo
+	@echo '	$$ make ubuntu-iso-builder-template'
+	@echo '	$$ make ubuntu-iso-builder-respin-xfce'
 	@echo
 .PHONY: help

@@ -29,8 +29,9 @@ Example:
 	$ make box-run
 
 	$ make master-build
-	$ make master-ubuntu-iso-builder-template
-	$ make master-ubuntu-iso-builder-respin-xfce
+
+	$ make ubuntu-iso-builder-template
+	$ make ubuntu-iso-builder-respin-xfce
 
 ```
 
