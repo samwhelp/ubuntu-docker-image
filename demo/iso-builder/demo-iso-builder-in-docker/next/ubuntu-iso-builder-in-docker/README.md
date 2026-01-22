@@ -30,8 +30,8 @@ Example:
 
 	$ make master-build
 
-	$ make ubuntu-iso-builder-template
-	$ make ubuntu-iso-builder-respin-xfce
+	$ make ubuntu-iso-builder-next-template
+	$ make ubuntu-iso-builder-next-respin-xfce
 
 ```
 
@@ -57,7 +57,7 @@ make master-build
 > or run to build iso-file in docker
 
 ``` sh
-make ubuntu-iso-builder-respin-xfce
+make ubuntu-iso-builder-next-respin-xfce
 ```
 
 > check port dir

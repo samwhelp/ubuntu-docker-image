@@ -13,7 +13,7 @@ help:
 	@echo
 	@echo '	$$ make master-build'
 	@echo
-	@echo '	$$ make ubuntu-iso-builder-template'
-	@echo '	$$ make ubuntu-iso-builder-respin-xfce'
+	@echo '	$$ make ubuntu-iso-builder-next-template'
+	@echo '	$$ make ubuntu-iso-builder-next-respin-xfce'
 	@echo
 .PHONY: help

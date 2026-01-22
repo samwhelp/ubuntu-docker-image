@@ -17,7 +17,7 @@ REF_BASE_DIR_PATH="$(dirname "$(realpath "${0}")")"
 ## ## Default
 ##
 
-DEFAULT_TARGET_NAME="ubuntu-iso-builder-respin-xfce"
+DEFAULT_TARGET_NAME="ubuntu-iso-builder-next-respin-xfce"
 REF_TARGET_NAME="${REF_TARGET_NAME:=$DEFAULT_TARGET_NAME}"
 
 
