@@ -15,5 +15,6 @@ help:
 	@echo
 	@echo '	$$ make ubuntu-iso-builder-next-template'
 	@echo '	$$ make ubuntu-iso-builder-next-respin-xfce'
+	@echo '	$$ make ubuntu-iso-builder-next-include-pacstall-xfce-attach-themes'
 	@echo
 .PHONY: help

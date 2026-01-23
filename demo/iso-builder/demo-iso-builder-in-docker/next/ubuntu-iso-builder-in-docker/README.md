@@ -32,6 +32,7 @@ Example:
 
 	$ make ubuntu-iso-builder-next-template
 	$ make ubuntu-iso-builder-next-respin-xfce
+	$ make ubuntu-iso-builder-next-include-pacstall-xfce-attach-themes
 
 ```
 
