@@ -4,7 +4,7 @@
 ## ## Base
 ##
 
-FROM ubuntu:25.10 as ubuntu-iso-factory-25.10
+FROM ubuntu:26.04 as ubuntu-iso-factory-26.04
 
 
 
